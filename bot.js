@@ -1,3 +1,8 @@
+// It's a Basic JavaScript TeleGramBot
+// Made For Beginner's
+// (c) ReeshuXD
+
+
 const { Telegraf, Markup } = require('telegraf')
 const TOKEN = "Your Bot Token Here"
 const bot = new Telegraf(TOKEN)
@@ -16,7 +21,7 @@ bot.command('start', async (ctx) => {
 bot.action('button', async (ctx) => {
 	await ctx.answerCbQuery()
 	await ctx.editMessageText(
-		"You Clicked A Button"
+		"Whoa! You Clicked A Button"
 	)
 })
 
