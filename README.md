@@ -3,7 +3,6 @@ A Sample JavaScriptBot For Beginners made using Telegraf
 
 # Steps to use
 ```
-Open Your Terminal
 npm install telegraf 
 git clone https://github.com/Reeshuxd/JavaScriptBot
 cd JavaScriptBot
